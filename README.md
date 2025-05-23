@@ -12,8 +12,9 @@ Or use our test service:
 * **UserName**: api
 * **Password**: ApiTrial@eWay-CRM
 
-> **Note:**
+> [!NOTE]
 > See [Howto find Web Service URL](https://www.eway-crm.com/resources/how-to-use-eway-crm/set-or-change-web-service-address/).
+> For production use we recommend to see [Howto create a new user just for API integration](https://kb.eway-crm.com/en/faq-1/installation/how-to-create-api-user).
 
 Fill in your details in the Postman *Variables* tab:
 
