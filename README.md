@@ -15,6 +15,7 @@ Or use our test service:
 > [!NOTE]
 > See [How to find Web Service URL](https://www.eway-crm.com/resources/how-to-use-eway-crm/set-or-change-web-service-address/).
 > For production use we recommend to see [How to create a new user just for API integration](https://kb.eway-crm.com/en/faq-1/installation/how-to-create-api-user).
+> Also make sure the user has [enough permissions](https://kb.eway-crm.com/en/documentation/5-administration-application/1-users/users-create-and-manage#effective-permissions) for the required operations.
 
 Fill in your details in the Postman *Variables* tab:
 
