@@ -93,22 +93,22 @@ $connector = new eWayConnector('https://trial.eway-crm.com/31994', 'api', 'ApiTr
 
 ### How to get info about recently changed items
 
-* Methods: **GetLastItemChangeId**, **GetBaseItemChangeId**, **GetItemChangeIdentifiers**, **GetChangedItems**
+* Methods: *GetLastItemChangeId*, *GetBaseItemChangeId*, *GetItemChangeIdentifiers*, *GetChangedItems*
 * Sample: https://github.com/eway-crm/php-lib/blob/master/Examples/ChangesOnContacts/README.md
 
 ### How to save a document
 
-* Methods: **SaveBinaryAttachment**, **SaveDocument**
+* Methods: *SaveBinaryAttachment*, *SaveDocument*
 * Sample: https://github.com/eway-crm/php-lib/tree/master/Examples/CreateTaskWithDocument
 
 ### How to change project Type / Status
 
-* Method: **SaveProject**
+* Method: *SaveProject*
 * Sample: https://github.com/eway-crm/php-lib/tree/master/Examples/ChangeProjectStatus
 
 ### How to create GENERAL relation between items
 
-* Method: **SaveRelation**
+* Method: *SaveRelation*
 * Sample: https://github.com/eway-crm/php-lib/tree/master/Examples/LinkExistingItem
 
 ## Support
