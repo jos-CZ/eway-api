@@ -91,6 +91,12 @@ $connector = new eWayConnector('https://trial.eway-crm.com/31994', 'api', 'ApiTr
 
 ## FAQ
 
+### How to login using OAuth 2.0
+
+When eWay-CRM uses Azure Auth, OAuth 2.0 is required for eWay-CRM API.
+
+See a full demo app: https://github.com/eway-crm/eway-crm-oauth-demo
+
 ### How to get info about recently changed items
 
 * Methods: *GetLastItemChangeId*, *GetBaseItemChangeId*, *GetItemChangeIdentifiers*, *GetChangedItems*
