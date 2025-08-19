@@ -91,33 +91,33 @@ $connector = new eWayConnector('https://free.eway-crm.com/31994', 'api', 'ApiTri
 
 ## FAQ
 
-### How to login using OAuth 2.0
+### How to login using OAuth 2.0?
 
 When eWay-CRM uses Azure Auth, OAuth 2.0 is required for eWay-CRM API.
 
 See a full demo app: https://github.com/eway-crm/eway-crm-oauth-demo
 
-### What OAuth Flows are support
+### What OAuth Flows are supported?
 
 Currently only Authorization Code flows are supported (user is involved). User needs to
 login to get RefreshToken which is then used by the application on the backend.
 
-### How to get info about recently changed items
+### How to get info about recently changed items?
 
 * Methods: *GetLastItemChangeId*, *GetBaseItemChangeId*, *GetItemChangeIdentifiers*, *GetChangedItems*
 * Sample: https://github.com/eway-crm/php-lib/blob/master/Examples/ChangesOnContacts/README.md
 
-### How to save a document
+### How to save a document?
 
 * Methods: *SaveBinaryAttachment*, *SaveDocument*
 * Sample: https://github.com/eway-crm/php-lib/tree/master/Examples/CreateTaskWithDocument
 
-### How to change project Type / Status
+### How to change project Type / Status?
 
 * Method: *SaveProject*
 * Sample: https://github.com/eway-crm/php-lib/tree/master/Examples/ChangeProjectStatus
 
-### How to create GENERAL relation between items
+### How to create GENERAL relation between items?
 
 * Method: *SaveRelation*
 * Sample: https://github.com/eway-crm/php-lib/tree/master/Examples/LinkExistingItem
