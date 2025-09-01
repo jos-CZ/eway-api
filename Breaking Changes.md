@@ -23,3 +23,24 @@ When saving multiple items use our [Update multiple items snippet](https://githu
 
 We have removed columns `RTFBody` from `EWD_Tasks` and `EWD_Calendar` tables as they have not been used for long time.
 Also `TeamTask` column was removed from `EWD_Tasks` table.
+
+## 9.3
+
+### Renamed database objects
+
+Several database objects were renamed.
+
+#### Stored procedures:
+
+ * eWaySP_AssingUserTeamRole -> eWaySP_AssignUserTeamRole
+ * eWaySP_CopyAddtionalFieldsData -> eWaySP_CopyAdditionalFieldsData
+ * eWaySP_ReasignTasks -> eWaySP_ReassignTasks
+ * eWaySP_SetAdminGroupModulePermisison -> eWaySP_SetAdminGroupModulePermission
+ * eWaySP_SetColumnPermissionForPeopleExpensesSumarization -> eWaySP_SetColumnPermissionForPeopleExpensesSummarization
+ * eWaySP_SetColumnPermissionForPriceSumarization -> eWaySP_SetColumnPermissionForPriceSummarization
+ * eWaySP_UpdateWorkReportsByCoutryOfUser -> eWaySP_UpdateWorkReportsByCountryOfUser
+
+#### Functions:
+
+ * ConcateEmailAddresses -> ConcatenateEmailAddresses
+ * GetDatesDifferenceInBussinesHours -> GetDatesDifferenceInBusinessHours
