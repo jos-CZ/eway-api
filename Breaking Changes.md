@@ -1,5 +1,26 @@
 # Breaking Changes
 
+## 9.3
+
+### Renamed database objects
+
+Several database objects were renamed.
+
+#### Stored procedures:
+
+* `eWaySP_AssingUserTeamRole` -> `eWaySP_AssignUserTeamRole`
+* `eWaySP_CopyAddtionalFieldsData` -> `eWaySP_CopyAdditionalFieldsData`
+* `eWaySP_ReasignTasks` -> `eWaySP_ReassignTasks`
+* `eWaySP_SetAdminGroupModulePermisison` -> `eWaySP_SetAdminGroupModulePermission`
+* `eWaySP_SetColumnPermissionForPeopleExpensesSumarization` -> `eWaySP_SetColumnPermissionForPeopleExpensesSummarization`
+* `eWaySP_SetColumnPermissionForPriceSumarization` -> `eWaySP_SetColumnPermissionForPriceSummarization`
+* `eWaySP_UpdateWorkReportsByCoutryOfUser` -> `eWaySP_UpdateWorkReportsByCountryOfUser`
+
+#### Functions:
+
+* `ConcateEmailAddresses` -> `ConcatenateEmailAddresses`
+* `GetDatesDifferenceInBussinesHours` -> `GetDatesDifferenceInBusinessHours`
+
 ## 8.1
 
 ### ItemChanges
