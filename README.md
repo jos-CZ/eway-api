@@ -91,6 +91,10 @@ $connector = new eWayConnector('https://free.eway-crm.com/31994', 'api', 'ApiTri
 
 ## FAQ
 
+### Do I need a paid licence for API?
+
+Yes, API for custom development is available in [Contacts & Companies (Standard)](https://eway.cr/compare_features).
+
 ### How to login using OAuth 2.0?
 
 When eWay-CRM uses Azure Auth, OAuth 2.0 is required for eWay-CRM API.
