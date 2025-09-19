@@ -26,11 +26,19 @@ use the same user name as you previously specified in Postman *Variables*.
 
 ![Postman login](assets/postman-login.png)
 
-As soon as you have *Access Token* click *Send* to create new session.
+As soon as you have *Access Token* click *Send* to create new SID (Session ID).
 
 With a session being generated you can start calling other methods eg. *SaveJournal* to create a new Journal in eWay-CRM.
 
 ![Postman session](assets/postman-session.png)
+
+### Session and token lifetimes
+
+Access Tokens are used to create a new session. Their lifetime is by default **1 hour**.
+
+Session lifetime is **20 minutes**. Session lifetime gets extended with each API call, but after **24 hours** it is invalidated.
+
+Refresh Tokens are valid for **15 days**. They can generate new Access Tokens. When a new Access Token is generated, Refresh Token lifetime gets extended.
 
 ## Docs
 
